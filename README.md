@@ -1,6 +1,6 @@
 # Welcome to this coding challenge repository!
 
-The projects follow a [UDEMY course curriculum](udemy.com/course/100-days-of-code/) for learning Python.
+The projects follow a [UDEMY course curriculum](http://udemy.com/course/100-days-of-code/) for learning Python.
 
 The projects are split into days, each day focusing on a specific topic or concept in Python programming.
 
