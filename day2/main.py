@@ -9,4 +9,4 @@ tip = bill * (tip_percent / 100)
 total_bill = bill + tip
 amount_per_person = total_bill / people
 
-print(f"Each person should pay: ${amount_per_person:.2f}")
+print(f"Each person should pay: ${amount_per_person, 2}")
