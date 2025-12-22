@@ -14,4 +14,3 @@ elif bmi < 25:
     print("You have a normal weight.")
 elif bmi < 30:
     print("You are overweight.")
-
