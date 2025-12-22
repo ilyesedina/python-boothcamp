@@ -4,11 +4,11 @@ The projects follow a [UDEMY course curriculum](http://udemy.com/course/100-days
 
 The projects are split into days, each day focusing on a specific topic or concept in Python programming.
 
-The first 14 days are beginner-friendly.  
-Days 15 to 31 are intermediate level.  
-Days 32 to 58 are intermediate+ level.  
-Days 59 to 81 are advanced level.  
-Days 82 to 100 are professional level.
+Days 01 to 14 are **beginner**-friendly.  
+Days 15 to 31 are **intermediate** level.  
+Days 32 to 58 are **intermediate+** level.  
+Days 59 to 81 are **advanced** level.  
+Days 82 to 100 are **professional** level.
 
 ## Getting started locally:
 1. Clone the repository to your local machine
