@@ -14,6 +14,9 @@ else :
     elif age >= 12:
         price = int(7)
         print(f"You are a teenager, ticket price is {price}.")
+    elif 45 <= age <= 55:
+        price = int(0)
+        print("You are in the mid-life special age group, your ticket is free!")
     else :
         price = int(5)
         print(f"You are a youth, ticket price is {price}.")
