@@ -5,6 +5,11 @@ print("Welcome to Rock, Paper, Scissors!")
 options = ["rock", "paper", "scissors"]
 
 user_input = input("Type 0 for Rock, 1 for Paper or 2 for Scissors: ")
+
+if not user_input.isdigit() or int(user_input) not in [0, 1, 2]:
+    print("You typed an invalid number. Please choose 0, 1, or 2.")
+    exit()
+
 user_choice = options[int(user_input)]
 computer_choice = random.choice(options)
 print(f"You chose: {user_choice}")
@@ -18,8 +23,8 @@ elif (user_choice == "rock" and computer_choice == "scissors") or \
      (user_choice == "scissors" and computer_choice == "paper"):
     print("You win!")
 else:
-    print("Computer wins!")
-
+    print("You lose!")
+  
 #prit out choices drawing ascii art
 rock_art = '''
     _______
@@ -43,7 +48,7 @@ scissors_art = '''
           ______)
        __________)
       (____)
----._______)
+---.__(____)
 '''
 art_options = [rock_art, paper_art, scissors_art]
 print(art_options[int(user_input)])
