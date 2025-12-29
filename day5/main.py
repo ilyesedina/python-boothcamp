@@ -22,4 +22,4 @@ for _ in range(symbols):
 for _ in range(numbers):
     password_characters.append(random.choice(string.digits))
 
-print(f"Your generated password is: {''.join(password_characters)}")5
+print(f"Your generated password is: {''.join(password_characters)}")
