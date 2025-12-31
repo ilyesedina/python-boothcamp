@@ -27,3 +27,15 @@ top_grade = 0
 for grade in student_grades:
     top_grade = max(grade, top_grade)
 print(top_grade)
+
+# Range function
+
+for number in range(1, 11, 3):
+    print(number)
+
+# The Gauss challenge
+100 = 1 + 2 + 3 + ... + 98 + 99 + 100
+# 100 = (1 + 100) + (2 + 99) + (3 + 98) + ... + (50 + 51)
+# 100 = 101 * 50
+# 100 = 5050
+
