@@ -34,8 +34,14 @@ for number in range(1, 11, 3):
     print(number)
 
 # The Gauss challenge
-100 = 1 + 2 + 3 + ... + 98 + 99 + 100
+# 100 = 1 + 2 + 3 + ... + 98 + 99 + 100
 # 100 = (1 + 100) + (2 + 99) + (3 + 98) + ... + (50 + 51)
 # 100 = 101 * 50
 # 100 = 5050
+
+total = 0
+for number in range(1,101):
+    total += number
+print(total)
+
 
