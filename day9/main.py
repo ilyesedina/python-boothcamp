@@ -1,4 +1,8 @@
 # Run python code with: python3 main.py
+from art import logo
+
+print(logo)
+print("Welcome to the Silent Bidding Auction Program!")
 
 # Todo 1: Ask the user to input a word
 # name = input("What is your name? ")
