@@ -36,5 +36,17 @@ Days 82 to 100 are **professional** level.
     ```
 Or click the play button in the top navigation.(if you are using pycharm code editor)
 
+## Run the projects in your browser
+Live: https://ilyesedina.github.io/python-boothcamp/
+
+Every day's `main.py` can run in the browser, with no install needed. It uses [Pyodide](https://pyodide.org), which is Python compiled to WebAssembly.
+
+```bash
+python web/serve.py
+```
+Then open http://localhost:8000, pick a day in the navigation, press **Run** and type your answers in the console.
+
+When you add a new day, add it to `web/projects.js`.
+
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
