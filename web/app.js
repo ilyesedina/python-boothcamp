@@ -72,6 +72,7 @@ function setState(next) {
   el.stdin.disabled = next !== "input";
   el.send.disabled = next !== "input";
   el.console.classList.toggle("waiting", next === "input");
+  el.stdin.placeholder = next === "input" ? "Type your answer, then Enter" : "Press Run to start";
   if (next === "input") el.stdin.focus();
 }
 
