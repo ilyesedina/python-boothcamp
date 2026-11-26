@@ -1,3 +1,4 @@
+# Tip Calculator
 # Tip calculator
 
 print("Welcome to the tip calculator!")
