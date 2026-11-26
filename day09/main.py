@@ -1,3 +1,4 @@
+# Silent Bidding Auction
 # Run python code with: python3 main.py
 from art import logo
 
