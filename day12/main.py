@@ -1,7 +1,7 @@
 from art import logo
 from random import randint
 
-# Attempt limits based on selected difficulty.
+# Attempt limits based on selected difficulty. Global Constant 
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
